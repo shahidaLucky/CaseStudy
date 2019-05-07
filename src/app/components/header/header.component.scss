@@ -1,0 +1,19 @@
+@import "./../../../styles";
+.top-header {
+  height: 50px;
+  background-color: darken($primaryBgColor, 10%);
+  padding: 5px;
+  .logo-container{
+    display: flex;
+    flex-direction: column;
+    .logo{
+      font-size: 150%;
+      font-weight: bold;
+      color: #D61004;
+    }
+    .slogan{
+      color: #e3c544;
+      font-weight: bold;
+    }
+  }
+}
