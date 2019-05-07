@@ -1,0 +1,44 @@
+$commonBgColor: #F0A22E;
+.home-page {
+  label{
+    width: 90px;
+    display: inline-block;
+  }
+  display: flex;
+  > div {
+    margin: 5px;
+  }
+  .cover-image {
+    width: 50vw;
+    img {
+      height: 80vh;
+      width: 50vw;
+    }
+  }
+  .middle-grid {
+    width: 20vw;
+    background-color: $commonBgColor;
+    .know-your-affordable-tuition {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      padding: 15px 5px;
+      margin: 0 5px 2px;
+      border-bottom: 5px solid white;
+    }
+    .success-stories {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+      margin: 0 5px;
+      text-align: center;
+    }
+    a:hover{
+      background-color: darken($commonBgColor, 5%);
+    }
+  }
+}
