@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
 import { ForgotPasswordPageComponent } from './forgot-password-page/forgot-password-page.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     RegisterPageComponent,
-    ForgotPasswordPageComponent
+    ForgotPasswordPageComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
